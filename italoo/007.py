@@ -1,6 +1,13 @@
 cidades = []
-for i in range(3):
-    nome = input(f"Digite o nome da cidade {i + 1}: ")
-    cidades.append(nome)
-    print("Lista atualizada de cidades:", cidades)
 
+while True:
+    nome = input("digite o nome de uma cidade(ou 'sair' para encerrar):")
+
+    if nome.lower()=='sair':
+        print("programa encerrado.")
+        break
+
+    cidades.append(nome)
+    print("lista de cidades atualizada:")
+    for cidade in cidades:
+        print("-", cidade)

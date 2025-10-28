@@ -1,0 +1,15 @@
+frutas = []
+print("Digite o nome das frutas solicitadas:")
+laranja = input("Digite 'limão': ")
+limao = input("Digite 'pera': ")
+banana = input("Digite 'laramja': ")
+pera = input("Digite 'banana': ")
+uva = input("Digite 'uva': ")
+frutas.append(limao)   
+frutas.append(pera)     
+frutas.append(laranja)    
+frutas.append(banana)      
+frutas.append(uva)       
+print("\nLista de frutas na ordem definida:")
+for i, fruta in enumerate(frutas, start=1):
+    print(f"{i}º {fruta}")

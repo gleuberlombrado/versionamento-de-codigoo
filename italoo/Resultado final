@@ -1,4 +1,4 @@
-INSUMOS_POR_MARMITA = {
+  INSUMOS_POR_MARMITA = {
     "arroz": 100,
     "feijao": 50,
     "carne": 25,
@@ -48,4 +48,4 @@ while True:
     for item, qtd in estoque.items():
         print(f"{item.capitalize()}: {qtd:.2f} g")
     
-    print(f"\nAinda é possível fazer {calcular_marmitas_possiveis(estoque)} marmitas.\n")
+    print(f"\nAinda é possível fazer {calcular_marmitas_possiveis(estoque)} marmitas.\n")                  

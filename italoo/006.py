@@ -1,7 +1,0 @@
-mensagem = str (input("digite uma mensagem:"))
-mensagem1 = mensagem.upper()
-print ("mensagem em maiuculo:")
-print (mensagem1)
-print ("mensagem em minusculo:")
-mensagem2 = mensagem1.lower()
-print (mensagem2) 
